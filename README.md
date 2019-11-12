@@ -1,23 +1,42 @@
-
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>FORMULARIO DE PRUEBA DE HTML5</title>
+</head>
+<body>
 <body style="background-color: lightblue;" >
-    
-<h1><style color= purple><center>FORMULARIO DE PRUEBA DE HTML5</center></style></h1>
-<form method="post" action="tratamiento.php">
-    <p>
-        <label>Nombre usuario</label> : <input type="text" name="username" id="user" autofocus />
-    </p>
-
-<p><label>Correo Electronico</label> : <input type="email" > </p>
-
-<p> <label> Escribe la URL de tu pagina web</label>: <input type="url"></p>
-<p> <label> Fecha </label>: <input type="date"></p>
-<p> <label> Tiempo</label>: <input type="time"></p>
-<p> <label> Mes</label>: <input type="month"></p>
-<p> <label> Semana</label>: <input type="week"></p>
-<p> <label> Numero </label>: <input type="number"></p>
-<p> <label> Telefono</label>: <input type="Telephone"></p>
-<p> <label> Termino de busqueda</label>: <input type="searh"></p>
-<p> <label> Color Favorito</label>: <input type="Telephone"></p>
+<h1 style= "color:purple;" ><center>FORMULARIO DE PRUEBA DE HTML5</center></h1>
+<form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+<p>
+Nombre: <input type="text" name="name_control" autofocus required />
+<p>
+Correo Electrónico: <input type="email" name="email_control" required />
+<p>
+URL: <input type="url" name="url_control" placeholder="Escripe la URL de tu página web personal" />
+<p>
+Fecha: <input type="date" name="date_control" />
+<p>
+Tiempo: <input type="time" name="time_control" />
+<p>
+Fecha y hora: <input type="datetime" name="datetime_control" />
+<p>
+Mes: <input type="month" name="month_control" />
+<p>
+Semana: <input type="week" name="week_control" />
+<p>
+Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+<p>
+Teléfono: <input type="tel" name="tel_control" />
+<p>
+Término de búsqueda: <input type="search" name="search_control" />
+<p />
+Color Favorito: <input type="color" name="color_control" />
+<p/>
+<input type="submit" value="Submit!" />
+</p>
 </form>
+</body>
+</html
+
 
