@@ -1,6 +1,14 @@
 
-<!DOCTYPE html>
+
 <body style="background-color: lightblue;" >
+    <style>
+h1 {color: purple}
+p {
+color: black
+}
+Label {
+color: black}
+</style>
 <h1><center>FORMULARIO DE PRUEBA DE HTML5</center></h1>
 <form method="post" action="tratamiento.php">
     <p>
