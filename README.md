@@ -1,15 +1,8 @@
-<style>
-h1 {color: purple}
-p {
-color: black
-}
-Label {
-color: black}
-</style>
+
 
 <body style="background-color: lightblue;" >
     
-<h1><center>FORMULARIO DE PRUEBA DE HTML5</center></h1>
+<h1><style color= purple><center>FORMULARIO DE PRUEBA DE HTML5</center></style></h1>
 <form method="post" action="tratamiento.php">
     <p>
         <label>Nombre usuario</label> : <input type="text" name="username" id="user" autofocus />
