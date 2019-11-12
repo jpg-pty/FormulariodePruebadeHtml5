@@ -1,6 +1,5 @@
-FORMULARIO DE PRUEBA DE HTML5
+
 <!DOCTYPE html>
-<html>
 <style>
 h1 {color: purple}
 p {
@@ -28,5 +27,4 @@ color: black}
 <p> <label> Termino de busqueda</label>: <input type="searh"></p>
 <p> <label> Color Favorito</label>: <input type="Telephone"></p>
 </form>
-</body>
-</html>
+
