@@ -1,7 +1,4 @@
-
-
-<body style="background-color: lightblue;" >
-    <style>
+<style>
 h1 {color: purple}
 p {
 color: black
@@ -9,6 +6,9 @@ color: black
 Label {
 color: black}
 </style>
+
+<body style="background-color: lightblue;" >
+    
 <h1><center>FORMULARIO DE PRUEBA DE HTML5</center></h1>
 <form method="post" action="tratamiento.php">
     <p>
